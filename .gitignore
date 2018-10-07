@@ -1,2 +1,5 @@
 # do not commit node modules
 node_modules
+
+# security vulnerabilities issues found
+package-lock.json

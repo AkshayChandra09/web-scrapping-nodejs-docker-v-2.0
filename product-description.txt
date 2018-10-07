@@ -1,1 +1,22 @@
-//complete tomorrow
+**************************************************************************
+Created By- Akshay Chandrachood
+
+********************************************************************************************************************************This is a Web-Scraping project.
+I have collected data from eBay website. Here is the link: https://www.ebay.com/b/Cell-Phones-Smartphones/9355/bn_320094?_ipg=25
+I collected data for cellphone category under eBay website. This data can be further used for analytics purpose.
+For example, if you want to analyse how many iphone 10 are available on eBay website or how many Samsung phones are available 
+on eBay website. Currently, the data is stored in MongoDB database. Data is displayed in raw format, but in subsequent versions 
+of this project you will see nice front end with analytics feature.     
+
+********************************************************************************************************************************
+
+Technologies used: 
+NodeJS 8.12.0-alpine, MongoDB: 3.4, Github, Docker
+
+******************************************************************************************************************************** 
+Functionality:
+Once script is started, web crawler will go to the above mentioned link and fetch records. It will store records in output.json file.
+There will be 5000+ records. These records will be stored in MongoDB database.
+Database name: ebay_db
+Collection name: phones
+  
